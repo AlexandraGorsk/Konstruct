@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.firstsec {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 41px 20px 71px;
+    align-items: center;
+    gap: 221px;
+}
+.logo {
+    position: relative;
+}
+.triangle {
+    position: absolute;
+    right: 11px;
+}
+.slogan {
+    margin-top: 90px;
+}
+h1 {
+    font: 400 60px "Bebas Neue";
+    line-height: 70px;
+    color: #fff;
+    letter-spacing: 5.7px;
+}
+p {
+    font: 400 13px "Open Sans";
+    color: #48555b;
+    line-height: 23px;
+}
+.firstsec p {
+    font: 600 16px "Open Sans";
+    color: #fff;
+    text-align: center;
+}
+.scrolldown {
+    font-size: 11px;
+    letter-spacing: 3.7px;
+}
+.menusection {
+    padding: 24px 20px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.menusection .logo {
+    height: 16px;
+}
+.menusection img {
+    height: 16px;
+}
+.menusection img:last-of-type {
+    position: relative;
+    width: 6.4px;
+    right: 19px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu ul li a {
+    padding: 0 16px;
+    text-decoration: none;
+    font: 600 12px "Open Sans";
+    color: #48555b;
+    text-transform: uppercase;
+}
+.menu ul li a.active {
+    color: #00a4e5;
+}
+.menu ul li a:hover {
+    color: #00a4e5;
+}
+.ourstory {
+    padding: 58px 20px;
+}
+h4 {
+    font: 700 18px "Open Sans";
+    color: #48555b;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2.3px;
+}
+.line {
+    background-color: #00a4e5;
+    margin: 0 auto;
+    height: 2px;
+    width: 50px;
+    margin-bottom: 40px;
+}
+.ourstory h3 {
+    font: 700 20px "Open Sans";
+    color: #48555b;
+    margin-bottom: 30px;
+}
+.ourstory span {
+    color: #00a4e5;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 89px;
+    align-items: flex-end;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 406px;
+}
+.pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.plan {
+    background-image: url(images/Bitmap.jpeg);
+    height: 223px;
+    width: 140px;
+    padding: 15px 15px 152px 15px;
+}
+.manage {
+    background-image: url(images/Bitmap2.jpeg);
+    height: 223px;
+    width: 140px;
+    padding: 15px 15px 152px 15px;
+}
+.build {
+    background-image: url(images/Bitmap3.jpeg);
+    height: 223px;
+    width: 140px;
+    padding: 15px 15px 152px 15px;
+}
+.pic h2 {
+    font: 800 24px "Open Sans";
+    color: #fff;
+    text-transform: uppercase;
+}
+.ourcapabilities {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 36px;
+}
+.ourcapabilities h4 {
+    text-align: left;
+    white-space: nowrap;
+}
+.ourcapabilities p {
+    line-height: 19px;
+    font-size: 11px;
+    margin-left: 124px;
+    width: 405px;
+}
+.ourcapabilities .line {
+    margin: 0 0;
+}
+button {
+    text-transform: uppercase;
+    font: 700 13px "Open Sans";
+    width: 150px;
+    height: 40px;
+    background-color: #00a4e5;
+    color: #fff;
+    border: 1px solid #00a4e5;
+    cursor: pointer;
+}
+.services {
+    padding: 60px 20px 115px;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+.services div {
+    padding: 38px 22px 39px 23px;
+    border: 1px solid #e6e6e6;
+    width: 295px;
+}
+.services div h5 {
+    font: 700 16px "Open Sans";
+    color: #48555b;
+    text-transform: uppercase;
+    margin: 25px 0 13px;
+    letter-spacing: 0.39px;
+}
+.getintouch {
+    text-align: center;
+    padding: 120px 20px 231px;
+    background-image: url(images/city.svg);
+}
+.getintouch h2 {
+    font: 700 30px "Open Sans";
+    line-height: 36px;
+    color: #48555b;
+    width: 350px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px 20px;
+    background-color: #171819;
+}
+.signup h6 {
+    padding: 5px 0;
+    font: 700 22px "Open Sans";
+    color: #fff;
+    letter-spacing: 0;
+}
+.signup input:first-child {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #979797;
+    font: 400 14px "Open Sans";
+    color: #48555b;
+    padding: 10px 16px;
+}
+.signup input:last-child {
+    text-transform: uppercase;
+    font: 700 13px "Open Sans";
+    width: 150px;
+    height: 40px;
+    background-color: #00a4e5;
+    color: #fff;
+    border: 1px solid #00a4e5;
+    cursor: pointer;
+    margin-left: -4px;
+    margin-top: 1px;
+}
+footer {
+    padding: 42px 20px 39px;
+    background-color: #141a20;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+footer .company p,
+h6,
+a {
+    font: 400 11px "Open Sans";
+    color: #fff;
+    letter-spacing: 0.846px;
+}
+footer .company p {
+    line-height: 19px;
+}
+footer .company div img:last-child {
+    position: absolute;
+    left: 83px;
+}
+footer .company div {
+    margin: 19px 0 16px;
+}
+footer .company {
+    width: 250px;
+    position: relative;
+}
+footer div ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+footer div ul li a:hover {
+    text-decoration: underline;
+}
+footer div ul {
+    margin-top: 10px;
+}
+.links {
+    margin-top: 16px;
+}
+.linkblock {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+.contactus {
+    font: 400 11px "Open Sans";
+    color: #fff;
+    line-height: 16px;
+}
+.contactus ul li a{
+    font: 400 11px "Open Sans";
+    color: #fff;
+    text-transform: none;
+}
+.contactus ul li:not(:first-child) {
+    padding-top: 10px;
+}
+.socialsites {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+.socialsites img {
+    height: 12px;
+    width: 12px;
+}
+.copyright {
+    background-color: #171819;
+    padding: 22px 0;
+    margin: auto;
+}
+.copyright p {
+    font: 400 11px "Open Sans";
+    color: #fff;
+    letter-spacing: 0.846;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .menusection {
+        padding-right: 20px;
+        padding-left: 20px;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .ourstory {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .description {
+        align-items: center;
+    }
+    .ourstory .pic {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ourcapabilities {
+        padding-right: 20px;
+        padding-left: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ourcapabilities p {
+        margin-left: 0;
+    }
+    .ourcapabilities .line {
+        margin: auto;
+    }
+    .services {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    footer {
+        padding-right: 20px;
+        padding-left: 20px;
+        gap: 11px;
+    }
+    footer .linkblock {
+        gap: 11px;
+    }
+}
+@media (max-width: 375px) {
+    .firstsec {
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .firstsec p {
+        text-align: left;
+    }
+    .menusection .logo {
+        display: none;
+    }
+    .menu ul li a{
+        padding: 0 9px;
+    }
+    .description {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about {
+        width: 100%;
+    }
+    .ourcapabilities p {
+        width: 100%;
+    }
+    .services {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .services div {
+        width: 100%;
+    }
+    .signup {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    form {
+        text-align: center;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer .company {
+        width: 100%;
+    }
+    .linkblock {
+        justify-content: space-between;
+    }
+    .socialsites {
+        justify-content: center;
+    }
+    .contactus{
+        text-align: center;
+    }
+    .contactus br{
+        display: none;
+    }
+    .contactus ul li:not(:first-child){
+        padding-top: 0;
+    }
+}
